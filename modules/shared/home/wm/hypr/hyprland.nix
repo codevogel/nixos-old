@@ -78,6 +78,8 @@
         "$mainMod SHIFT, S, exec, peck --clipboard --temp --freeze"
         "$mainMod SHIFT, R, exec, peck --record --clipboard --temp"
         "$mainMod SHIFT, G, exec, peck --record --clipboard --temp --format=gif"
+
+        "$mainMod, F, fullscreen"
       ]
       ++ (
         # workspaces
