@@ -33,6 +33,7 @@
       # Formatters:
       stylua
       nixfmt
+      prettier
       prettierd
       csharpier
     ];
