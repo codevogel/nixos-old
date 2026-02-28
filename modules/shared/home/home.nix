@@ -33,6 +33,7 @@
     ./dev/vhs/vhs.nix
     ./dev/vscode/vscode.nix
     ./dev/dotnet/dotnet.nix
+    ./dev/formatters-and-linters/formatters-and-linters.nix
     ./docs/obsidian.nix
     ./calendar/khal/khal.nix
     ./recording/obs.nix
