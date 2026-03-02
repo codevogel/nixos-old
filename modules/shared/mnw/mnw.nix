@@ -123,7 +123,7 @@
 
       dev.codevogel = {
         pure = ./nvim;
-        impure = "/home/codevogel/nixos/modules/shared/mnw/nvim";
+        impure = "~/nixos/modules/shared/mnw/nvim";
       };
     };
   };
