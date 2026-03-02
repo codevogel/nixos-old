@@ -8,7 +8,7 @@
 
 {
   mnw = mnw.lib.wrap pkgs {
-    neovim = inputs.neovim-nightly-overlay.packages.${pkgs.system}.default;
+    neovim = inputs.neovim-nightly-overlay.packages.${pkgs.stdenv.hostPlatform.system}.default;
 
     luaFiles = [ ./nvim/init.lua ];
 
